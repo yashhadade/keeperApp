@@ -1,13 +1,13 @@
 {
-  "home": "https://yashhadade.github.io/keeperApp/",
+  "home": "https://yashhadade.github.io/keeperApp",
   "name": "keeper-part-3-starting",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": " npm run build",
-    "npm": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
